@@ -1,6 +1,6 @@
 <?php
 
-namespace goodcom\GcOrderPrinter\Controllers;
+namespace goodcom\gcorderprinter\Controllers;
 
 use Response;
 use Storage;

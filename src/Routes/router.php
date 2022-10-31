@@ -1,7 +1,7 @@
 <?php
 use Illuminate\Support\Facades\Route;
-use goodcom\GcOrderPrinter\Controllers\GcOrderController;
-use goodcom\GcOrderPrinter\Controllers\GcPrinterController;
+use goodcom\gcorderprinter\Controllers\GcOrderController;
+use goodcom\gcorderprinter\Controllers\GcPrinterController;
 
 //Route::get('/hello', [GcOrderControl::class,'index']);
 

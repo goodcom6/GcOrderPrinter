@@ -1,10 +1,13 @@
 {
-    "name": "goodcom/gc-order-printer",
+    "name": "goodcom/gcorderprinter",
     "description": "send order to goodcom printer and confirm order from goodcom printer",
     "autoload": {
         "psr-4": {
-            "goodcom\\gc-order-printer\\": "vendor/goodcom/gc-order-printer/src/"
-        }
+            "goodcom\\gcorderprinter\\": "vendor/goodcom/gcorderprinter/src/"
+        },
+        "files": [
+            "vendor/goodcom/gcorderprinter/src/GcProvider.php"
+        ]
     },
     "authors": [
         {
@@ -15,7 +18,7 @@
     "extra": {
         "laravel": {
            "providers": [
-               "goodcom\\gc-order-printer\\GcProvider"
+               "goodcom\\gcorderprinter\\GcProvider"
            ]
        }
     },

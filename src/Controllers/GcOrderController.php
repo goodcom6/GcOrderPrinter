@@ -1,6 +1,6 @@
 <?php
 
-namespace goodcom\GcOrderPrinter\Controllers;
+namespace goodcom\gcorderprinter\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;

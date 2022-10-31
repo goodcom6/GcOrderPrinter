@@ -1,9 +1,9 @@
 <?php
 
-namespace goodcom\gc-order-printer;
+namespace goodcom\gcorderprinter;
 
 use Illuminate\Support\ServiceProvider;
-use goodcom\gc-order-printer\Controllers\GcOrderController;
+use goodcom\gcorderprinter\Controllers\GcOrderController;
 
 class GcProvider extends ServiceProvider
 {
@@ -14,8 +14,8 @@ class GcProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->make('goodcom\gc-order-printer\Controllers\GcOrderController');
-		$this->app->make('goodcom\gc-order-printer\Controllers\GcPrinterController');
+        $this->app->make('goodcom\gcorderprinter\Controllers\GcOrderController');
+		$this->app->make('goodcom\gcorderprinter\Controllers\GcPrinterController');
 		$this->loadViewsFrom(__DIR__.'/views','goodcom');
     }
 

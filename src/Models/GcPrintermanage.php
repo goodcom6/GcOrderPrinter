@@ -1,6 +1,6 @@
 <?php
 
-namespace goodcom\GcOrderPrinter\Models;
+namespace goodcom\gcorderprinter\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
