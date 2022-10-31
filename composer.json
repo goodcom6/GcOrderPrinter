@@ -1,0 +1,24 @@
+{
+    "name": "goodcom/GcOrderPrinter",
+    "description": "send order to goodcom printer and confirm order from goodcom printer",
+    "autoload": {
+        "psr-4": {
+	    "App\\":" app/",
+            "goodcom\\GcOrderPrinter\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "coolbi",
+            "email": "j_m_hong@163.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+           "providers": [
+               "goodcom\\GcOrderPrinter\\GcProvider"
+           ],
+       }
+    },
+    "require": {}
+}
