@@ -17,7 +17,7 @@
         "laravel": {
            "providers": [
                "goodcom\\GcOrderPrinter\\GcProvider"
-           ],
+           ]
        }
     },
     "require": {}
