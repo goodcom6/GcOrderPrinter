@@ -1,10 +1,10 @@
 {
-    "name": "goodcom/GcOrderPrinter",
+    "name": "goodcom/gc-order-printer",
     "description": "send order to goodcom printer and confirm order from goodcom printer",
     "autoload": {
         "psr-4": {
 	    "App\\":" app/",
-            "goodcom\\GcOrderPrinter\\": "src/"
+            "goodcom\\gc-order-printer\\": "src/"
         }
     },
     "authors": [
@@ -16,7 +16,7 @@
     "extra": {
         "laravel": {
            "providers": [
-               "goodcom\\GcOrderPrinter\\GcProvider"
+               "goodcom\\gc-order-printer\\GcProvider"
            ]
        }
     },
