@@ -3,7 +3,6 @@
     "description": "send order to goodcom printer and confirm order from goodcom printer",
     "autoload": {
         "psr-4": {
-	    "App\\":" app/",
             "goodcom\\gc-order-printer\\": "src/"
         }
     },

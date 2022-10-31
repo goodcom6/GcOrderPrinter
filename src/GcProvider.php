@@ -14,8 +14,8 @@ class GcProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->make('goodcom\GcOrderPrinter\Controllers\GcOrderController');
-		$this->app->make('goodcom\GcOrderPrinter\Controllers\GcPrinterController');
+        $this->app->make('goodcom\gc-order-printer\Controllers\GcOrderController');
+		$this->app->make('goodcom\gc-order-printer\Controllers\GcPrinterController');
 		$this->loadViewsFrom(__DIR__.'/views','goodcom');
     }
 
