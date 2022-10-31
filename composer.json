@@ -6,7 +6,7 @@
             "goodcom\\gcorderprinter\\": "vendor/goodcom/gcorderprinter/src/"
         },
         "files": [
-            "vendor/goodcom/gcorderprinter/src/GcProvider.php"
+            "src/GcProvider.php"
         ]
     },
     "authors": [
