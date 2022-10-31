@@ -1,9 +1,9 @@
 <?php
 
-namespace goodcom\GcOrderPrinter;
+namespace goodcom\gc-order-printer;
 
 use Illuminate\Support\ServiceProvider;
-use goodcom\GcOrderPrinter\Controllers\GcOrderController;
+use goodcom\gc-order-printer\Controllers\GcOrderController;
 
 class GcProvider extends ServiceProvider
 {
