@@ -3,10 +3,14 @@
     "description": "send order to goodcom printer and confirm order from goodcom printer",
     "autoload": {
         "psr-4": {
-            "goodcom\\gcorderprinter\\": "vendor/goodcom/gcorderprinter/src/"
+            "goodcom\\gcorderprinter\\": "src/"
         },
+        "classmap": [
+            "vendor/goodcom/gcorderprinter/src/"
+        ],
         "files": [
-            "src/GcProvider.php"
+            "src/GcProvider.php",
+            "vendor/goodcom/gcorderprinter/src/GcOrderController.php",
         ]
     },
     "authors": [
