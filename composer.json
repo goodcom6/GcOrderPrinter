@@ -5,12 +5,9 @@
         "psr-4": {
             "goodcom\\gcorderprinter\\": "src/"
         },
-        "classmap": [
-            "src/Controllers/"
-        ],
+
         "files": [
             "src/GcProvider.php",
-            "vendor/goodcom/gcorderprinter/src/Controllers/GcOrderController.php"
         ]
     },
     "authors": [
