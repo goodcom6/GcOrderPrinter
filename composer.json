@@ -10,7 +10,7 @@
         ],
         "files": [
             "src/GcProvider.php",
-            "vendor/goodcom/gcorderprinter/src/GcOrderController.php"
+            "vendor/goodcom/gcorderprinter/src/Controllers/GcOrderController.php"
         ]
     },
     "authors": [
