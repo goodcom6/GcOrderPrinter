@@ -5,9 +5,8 @@
         "psr-4": {
             "goodcom\\gcorderprinter\\": "src/"
         },
-
         "files": [
-            "src/GcProvider.php",
+            "src/GcProvider.php"
         ]
     },
     "authors": [
