@@ -6,7 +6,7 @@
             "goodcom\\gcorderprinter\\": "src/"
         },
         "classmap": [
-            "vendor/goodcom/gcorderprinter/src/"
+            "Controllers/"
         ],
         "files": [
             "src/GcProvider.php",
