@@ -1,5 +1,6 @@
 {
     "name": "goodcom/gcorderprinter",
+	"version": "1.0.0",
     "description": "send order to goodcom printer and confirm order from goodcom printer",
     "autoload": {
         "psr-4": {
